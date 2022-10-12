@@ -1,0 +1,143 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(195, 0, 0, 1);
+    /* text-align: center; */
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    font-size: 40px;
+    /* margin-bottom: 60px; */
+    color: white;
+    margin: 0;
+
+}
+
+.footdiv {
+    display : flex;
+    margin-top: 30px;
+    height: 70px;
+    width: 100%;
+    /* border-width: 2px; */
+    /* border-style: solid; */
+    /* border-color: red; */
+    justify-content:space-evenly;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    background-color:  rgba(195, 0, 0, 1);
+    color: white;
+     /* margin-bottom: 50px; */
+
+}
+ 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.netflix, .youtube, .instagram {
+    /* width: 65px; */
+    color: white;
+    border-bottom: 1px dashed ;
+}
+
+.youtube{
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    font-weight: lighter;
+}
+
+.image{
+        width: 220px;
+        height: 220px;
+        border-radius: 50%;
+        display: block;
+        margin: 0px auto;
+        margin-top: 30px;
+ }
+
+ .midcontent{
+    margin: 10px;
+    text-align: center;
+ }
+
+ button {
+    font-size: 17px;
+    padding: 2px;
+    margin: 8px;
+    width: 240px;
+    height: 32px;
+
+ }
+
+ .fallout{
+    display: flex;
+    margin: auto;
+    border: 2px solid grey;
+    width: 140px;
+    height: 40px;
+    color: #b67139;
+    font-weight: 500;
+    font-size: 16px;
+
+    justify-content: center;
+     
+    align-items: center;
+
+    /* text-align: center; */
+    /* padding: 5px; */
+    /* padding-top: 13px; */
+    margin-top: 27px;
+    margin-bottom: 11px;
+
+
+ }
+
+ #butt1{
+    background-color:  rgba(195, 0, 0, 1) ;
+    border: none;
+    color: white;
+    margin-top: 19px;
+    cursor: pointer;
+    /* transition: box-shadow 0.5s; */
+
+ }
+
+ #butt2{
+    border: 1px solid #c4a287;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    /* font-weight: lighter; */
+    cursor: pointer;
+    background-color: white;
+   
+ }
+
+   #butt1:hover {
+    box-shadow: 0px 0px 3px 3px #e01c46cc;
+    border: 0.7px solid #ba0427;
+     
+ }
+
+ #butt2:hover {
+    /* box-shadow: 5px 5px 11px #c4a287; */
+   box-shadow: 0px 0px 3px 3px #c4a287; 
+   border
+}
+
